@@ -7,21 +7,9 @@ export const metadata: Metadata = {
   description: 'A modern property storefront and lead workspace by Property Enframes.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/prpen.png',
-        type: 'image/png',
-      },
-    ],
-    apple: '/prpen.png',
+    icon: '/propen.png',
+    shortcut: '/propen.png',
+    apple: '/propen.png',
   },
 }
 
